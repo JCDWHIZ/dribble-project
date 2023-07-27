@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style-type: none;
+}
+header {
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  font-weight: lighter;
+}
+.headtext {
+  display: flex;
+  margin: 25px;
+  color: grey;
+}
+.headtext1 {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.headtext1 a {
+  text-decoration: none;
+  color: grey;
+}
+.headtext2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  /* text-align: right; */
+  margin-left: 600px;
+}
+.headtext2 a:nth-child(2) {
+  text-decoration: none;
+  color: grey;
+}
+.headtext2 a:nth-child(3) {
+  border: 1px solid rgb(255, 57, 205);
+  border-radius: 9px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 57, 205);
+}
+
+/* header ends here */
+
+/* main starts here */
+
+nav {
+  height: fit-content;
+  /* background-color: blue; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.712)),
+    url(background0160.jpg);
+  background-position: top;
+  padding: 25px;
+}
+.maintext ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.maintext ul li {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.493);
+  border-radius: 40px;
+  padding: 15px;
+}
+.maintext ul li:nth-child(1) {
+  background-color: white;
+  color: black;
+}
+.maintext ul li:hover {
+  background-color: white;
+  color: black;
+}
+.maintext2 {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  word-spacing: 1px;
+}
+.maintext2 h1 {
+  font-weight: bold;
+  word-spacing: 1px;
+}
+.maintext2 p:nth-child(2) {
+  padding: 11px;
+}
+.form {
+  text-align: center;
+}
+.form input {
+  padding: 20px 430px 20px 40px;
+  border: none;
+  font-size: larger;
+  border-radius: 30px;
+}
+.searches {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.searches ul {
+  display: flex;
+  gap: 30px;
+}
+.searches ul li:nth-child(1) {
+  color: white;
+  padding: 10px 15px;
+}
+.searches ul li:nth-child(2) {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.searches ul li:nth-child(3) {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.searches ul li:nth-child(4) {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.searches ul li:nth-child(5) {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.searches ul li:nth-child(6) {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+.searches ul li:hover:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+}
+.searches ul li:hover:nth-child(3) {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+}
+.searches ul li:hover:nth-child(4) {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+}
+.searches ul li:hover:nth-child(5) {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+}
+.searches ul li:hover:nth-child(6) {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  border: none;
+}
+
+/* section begins */
+
+main {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 30px;
+  height: fit-content;
+}
+.images {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.odd {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: brown;
+}
+.images1 {
+  padding: 13px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.226);
+}
+.images1 a {
+  gap: 10px;
+  color: black;
+}
+.img1 {
+  height: 32vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.356)),
+    url(bag.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.img2 {
+  height: 32vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.356)),
+    url(boots.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.img3 {
+  height: 32vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.356)),
+    url(hourglass.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.img4 {
+  height: 32vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.356)),
+    url(bag.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
